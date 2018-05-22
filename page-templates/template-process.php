@@ -1,6 +1,6 @@
 <?php
 /*
- * Template Name: vision
+ * Template Name: process
  */
 ?>
 <!DOCTYPE html>
@@ -11,15 +11,19 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewpoint" content="width=device-width, initial-scale=1" />
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<meta http-equiv="expires" content="0">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Cathe-Control" content="no-cache">
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <!-- bootstrap -->
 <link href="<?php bloginfo('template_url'); ?>/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 <script src="<?php bloginfo('template_url'); ?>/bootstrap/js/bootstrap.min.js"></script>
 
-<link href="<?php bloginfo('template_url'); ?>/css/vision.css" rel="stylesheet">
-<script src="<?php bloginfo('template_url'); ?>/js/vision.js"></script>
+<link href="<?php bloginfo('template_url'); ?>/css/process.css" rel="stylesheet">
 
-  <style type="text/css"></style>
+
+<style type="text/css"></style>
 </head>
 <script type="text/javascript">
   
@@ -38,36 +42,16 @@
 <div class="top" id="top_1">
   <a href="<?php echo site_url(); ?>/homepage/"><div id="nav1"><div id="navid1">關於本室</div></div></a>
   <div class="navbox1_3">   <!-- 點擊展開出左大梯形 -->
-    <div id="navboxw1_3">
-      可 查 閱 本 室 簡 介 、 本<br>室 位 置 、 主 任 簡 介 、<br>本 室 願 景 、 組 織 架<br>構 、 人 員 職 掌 及 工 作<br>成 果 等 資 訊
-    </div>
-      <a href="<?php echo site_url(); ?>/intro/"><div id="navboxw1_3_1">本 室 簡 介<br></div></a>
-      <a href="<?php echo site_url(); ?>/site/" style="color: #FFFFFF;"><div id="navboxw1_3_2">本 室 位 置<br></div></a>
-      <div id="navboxw1_3_3">人 員 職 掌<br></div>
-      <a href="<?php echo site_url(); ?>/vision/"><div id="navboxw1_3_4">本 室 願 景<br></div></a>
-      <div id="navboxw1_3_5">工 作 成 果</div>
+
   </div>
   <div class="navbox1_4">   <!-- 點擊展開出右大梯形 -->
-    <div class="h1" id="h1">
-      <div class="circle1"><div id="cw1">願景</div></div>
-      <div class="cb1">兼具專業與熱忱的團隊，攜手邁向頂尖!</div>
-    </div>
-    <div class="h2" id="h2">
-    <div class="circle2"><div id="cw2">核心任務</div></div>
-    <div class="cb2">一、以前瞻創新之思維，建立完善的人事體制。<br>二、以專業精進之精神，提升服務的品質效能。<br>三、以關懷同理之熱誠，營造溫馨的校園環境。</div>
-    </div>
-    <div class="h3" id="h3">
-    <div class="circle3"><div id="cw3">核心價值</div></div>
-    <div class="cb3">廉政 廉潔、公正，具有高尚人格。清廉自持，潔身自好，不收受不當利益，並主動利益迴<br>&nbsp;           避;誠信公平執行公務，以兼顧各方利益之均衡，營造全民良善之生存發展環境。<br><br>忠誠 忠於憲法及法律，忠於國家及全民;重視榮譽、誠信、誠實並應具道德感與責任感。<br><br>專業 以謙虛的態度，終身學習，積極充實職務所需之知識技能，並熟悉主管法令及相關政<br>&nbsp;&nbsp;策措施，以提供全民第一流的公共服務。<br><br>效能 運用有效方法，簡化行政程序;研修相關法令、措施應符合成本效益要求;發揮執行<br>&nbsp;&nbsp;力，以提高行政效率與工作績效，達成政策目標。<br><br>關懷 時時以民眾福祉為念，親切提供服務;對人民之需要及所遭遇之困難與問題，能以同<br>&nbsp;&nbsp;理心設身處地著想，並提供必要之協助與照護，以增進其利益。</div>
-    </div>
+    
   </div>
 </div>
 <div class="top" id="top_2">
   <div id="nav2">
     <div id="navid2">訊息公告</div>
   </div>
-  <div class="navbox2"></div>
-  <div class="navbox2_2"></div>
 </div>
 <div class="top" id="top_3">
   <div id="nav3">
@@ -85,12 +69,26 @@
   <div class="navbox4_2"></div>
 </div>
 <div class="top" id="top_5">
-  <div id="nav5">
+  <a href="<?php echo site_url(); ?>/homepage/"><div id="nav5">
     <div id="navid5_1">公務員廉政</div>
     <div id="navid5_2">倫理規範</div>
+  </div></a>
+  <div class="navbox5_3"> <!-- 點擊展開出左大梯形 -->
+    <div id="navboxw5_3">
+      查 閱 公 務 員 廉 政 倫 理<br>規 範 相 關 法 令 規 章
+    </div>
+      <a href="<?php echo site_url(); ?>/rules/"><div id="navboxw5_3_1">條 文 及 總 說 明<br></div></a>
+      <a href="<?php echo site_url(); ?>/questions/"><div id="navboxw5_3_2">問 答 輯<br></div></a>
+      <a href="<?php echo site_url(); ?>/process/"><div id="navboxw5_3_3">受 贈 財 務、飲 宴 應 酬、請 託 關 說 及 其 他 廉 正 倫 理 事 件 處 理 程 序<br></div></a>
+      <a href="<?php echo site_url(); ?>/links/"><div id="navboxw5_3_4">相 關 連 結<br></div></a>
   </div>
-  <div class="navbox5"></div>
-  <div class="navbox5_2"></div>
+  <div class="navbox5_4">
+    <div id="navboxw5_4_1">受贈財物事件處理程序<br></div>
+    <div id="navboxw5_4_2">飲宴應酬處理程序<br></div>
+    <div id="navboxw5_4_3">請託關說處理程序<br></div>
+    <div id="navboxw5_4_4">出席演講、座談、研習、評選(審)等活動、兼職或財務處理程序<br></div>
+    <div id="navboxw5_4_5">受贈財物、飲宴應酬、請託關說及其他廉正倫理事件登錄表<br></div>
+  </div>
 </div>
 <div class="top" id="top_6">
   <div id="nav6">
@@ -117,4 +115,9 @@
 
 
 </body>
+
+<script type="text/javascript">
+  
+  
+</script>
 </html>
