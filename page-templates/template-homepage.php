@@ -28,7 +28,7 @@
 </script>
 <body>
 <div class="navbar">
-  <div class="triangle"></div>
+  <!-- <div class="triangle"></div> -->
 
   <a href="<?php echo site_url(); ?>"><img src="<?php bloginfo('template_url');?>/image/logo.png" alt="NCTU logo" width="360" height="75" style="position: relative; left: 6%; top: 1.5em;"></a>
 
